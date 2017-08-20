@@ -10,13 +10,14 @@ import Foundation
 
 public enum JavaScriptFileManager: String {
     case Cool
+    case rollup
     
     public var filepath: String {
         return Bundle(identifier: "com.dnthome.JavaScriptFiles")!.path(forResource: rawValue, ofType: "js")!
     }
     
     public var fileContents: String {
-        return (try! String.init(contentsOfFile: JavaScriptFileManager.Cool.filepath))
+        return (try! String.init(contentsOfFile: filepath))
     }
     
 }

@@ -4,12 +4,15 @@ import UIKit
 import JavaScriptCore
 import JavaScriptFiles
 
-var str = "Hello, playground"
-
-JavaScriptFileManager.Cool.filepath
-
 let j = JSContext()!
 
-j.evaluateScript(JavaScriptFileManager.Cool.fileContents)
+JavaScriptFileManager.rollup.fileContents
 
-j.evaluateScript("(new Cool()).words()").toString()
+j.evaluateScript(JavaScriptFileManager.rollup.fileContents)
+
+j.evaluateScript("(new Base());")
+
+j.evaluateScript("var b = new Base();")
+j.evaluateScript("b.aMethod()")
+
+

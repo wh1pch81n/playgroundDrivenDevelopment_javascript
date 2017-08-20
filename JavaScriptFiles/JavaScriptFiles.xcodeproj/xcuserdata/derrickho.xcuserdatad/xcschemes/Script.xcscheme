@@ -3,7 +3,7 @@
    LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "NO"
+      parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
@@ -20,20 +20,6 @@
                ReferencedContainer = "container:JavaScriptFiles.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7FD5E7231F3A958600AB5146"
-               BuildableName = "JavaScriptFiles.framework"
-               BlueprintName = "JavaScriptFiles"
-               ReferencedContainer = "container:JavaScriptFiles.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -43,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7FD5E7231F3A958600AB5146"
-            BuildableName = "JavaScriptFiles.framework"
-            BlueprintName = "JavaScriptFiles"
-            ReferencedContainer = "container:JavaScriptFiles.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -68,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7FD5E7231F3A958600AB5146"
-            BuildableName = "JavaScriptFiles.framework"
-            BlueprintName = "JavaScriptFiles"
+            BlueprintIdentifier = "7F527B691F4A0B3100576E38"
+            BuildableName = "Script"
+            BlueprintName = "Script"
             ReferencedContainer = "container:JavaScriptFiles.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -86,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7FD5E7231F3A958600AB5146"
-            BuildableName = "JavaScriptFiles.framework"
-            BlueprintName = "JavaScriptFiles"
+            BlueprintIdentifier = "7F527B691F4A0B3100576E38"
+            BuildableName = "Script"
+            BlueprintName = "Script"
             ReferencedContainer = "container:JavaScriptFiles.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
