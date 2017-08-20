@@ -5,7 +5,6 @@ let configuration = {
   },
   name: 'namename',
   input: './main.js',
-  treeshake: false,
 };
 
 export default configuration;

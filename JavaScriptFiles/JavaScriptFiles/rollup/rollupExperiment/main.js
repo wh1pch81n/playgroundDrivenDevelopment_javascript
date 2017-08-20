@@ -6,8 +6,10 @@ import SubA from './SubA.js';
 //
 // Tree shaking will remove unused things.
 // Quick work around is to just explicitly export them.
-export {
-    Base,
-    SubB,
-    SubA
+export default function() {
+    [
+     new Base(),
+     new SubB(),
+     new SubA()
+     ]
 }
