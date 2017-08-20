@@ -11,7 +11,7 @@ class SubA extends Base {
 }
 
 class SubB extends SubA {
-  aMethod() { return "Beta 9h"; }
+  aMethod() { return "Beta 9h."; }
 }
 
 // rollupjs will use this file as a starting point as a means of combining all of the javascrip files together.
