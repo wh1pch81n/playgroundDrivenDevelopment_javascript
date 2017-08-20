@@ -10,9 +10,9 @@ JavaScriptFileManager.rollup.fileContents
 
 j.evaluateScript(JavaScriptFileManager.rollup.fileContents)
 
-j.evaluateScript("(new Base());")
+j.evaluateScript("(new Base()).aMethod();")
+j.evaluateScript("(new SubA()).aMethod();")
+j.evaluateScript("(new SubB()).aMethod();")
 
-j.evaluateScript("var b = new Base();")
-j.evaluateScript("b.aMethod()")
 
 

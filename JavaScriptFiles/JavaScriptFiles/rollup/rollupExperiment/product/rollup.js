@@ -17,7 +17,7 @@ class SubB extends SubA {
 // rollupjs will use this file as a starting point as a means of combining all of the javascrip files together.
 //
 
-var main = function () {
+var main = function() {
 	// Tree shaking will remove unused things.  
 	// Quick work around is to just call it, but don't use it.
 	[
