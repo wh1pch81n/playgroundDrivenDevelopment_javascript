@@ -1,5 +1,5 @@
 export default class Base {
   aMethod() {
-    return "Hello";
+    return "Hello world";
   }
 }

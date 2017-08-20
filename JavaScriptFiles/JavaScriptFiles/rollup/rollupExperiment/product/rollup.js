@@ -2,12 +2,12 @@
 
 class Base {
   aMethod() {
-    return "Hello";
+    return "Hello world";
   }
 }
 
 class SubA extends Base {
-  aMethod() { return "Ace"; }
+  aMethod() { return "Ace!"; }
 }
 
 class SubB extends SubA {
