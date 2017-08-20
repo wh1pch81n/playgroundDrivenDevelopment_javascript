@@ -1,8 +1,10 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 class Base {
   aMethod() {
-    return "Hello world";
+    return "Hello world!";
   }
 }
 
@@ -11,20 +13,9 @@ class SubA extends Base {
 }
 
 class SubB extends SubA {
-  aMethod() { return "Beta 9h."; }
+  aMethod() { return "Beta 9hr."; }
 }
 
-// rollupjs will use this file as a starting point as a means of combining all of the javascrip files together.
-//
-
-var main = function() {
-	// Tree shaking will remove unused things.  
-	// Quick work around is to just call it, but don't use it.
-	[
-		new SubA(),
-		new Base(),
-		new SubB(),
-	];
-};
-
-module.exports = main;
+exports.Base = Base;
+exports.SubB = SubB;
+exports.SubA = SubA;
