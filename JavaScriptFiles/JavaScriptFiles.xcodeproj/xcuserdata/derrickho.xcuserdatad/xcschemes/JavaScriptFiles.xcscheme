@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7FD216181F4A9AC00052D6A3"
+               BuildableName = "Script"
+               BlueprintName = "Script"
+               ReferencedContainer = "container:JavaScriptFiles.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FD5E7231F3A958600AB5146"
                BuildableName = "JavaScriptFiles.framework"
                BlueprintName = "JavaScriptFiles"

@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		7FD216181F4A9AC00052D6A3 /* Script */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7FD216191F4A9AC00052D6A3 /* Build configuration list for PBXAggregateTarget "Script" */;
+			buildPhases = (
+				7FD2161C1F4A9AC50052D6A3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Script;
+			productName = Script;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		7F527B771F4A0C6C00576E38 /* Base.js in Resources */ = {isa = PBXBuildFile; fileRef = 7F527B701F4A0C6C00576E38 /* Base.js */; };
 		7F527B781F4A0C6C00576E38 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 7F527B711F4A0C6C00576E38 /* main.js */; };
@@ -127,7 +141,6 @@
 				7FD5E7201F3A958600AB5146 /* Frameworks */,
 				7FD5E7211F3A958600AB5146 /* Headers */,
 				7FD5E7221F3A958600AB5146 /* Resources */,
-				7F527B681F4A0ACF00576E38 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -147,6 +160,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Derrick Ho";
 				TargetAttributes = {
+					7FD216181F4A9AC00052D6A3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					7FD5E7231F3A958600AB5146 = {
 						CreatedOnToolsVersion = 8.3.3;
 						LastSwiftMigration = 0830;
@@ -167,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				7FD5E7231F3A958600AB5146 /* JavaScriptFiles */,
+				7FD216181F4A9AC00052D6A3 /* Script */,
 			);
 		};
 /* End PBXProject section */
@@ -188,7 +206,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F527B681F4A0ACF00576E38 /* ShellScript */ = {
+		7FD2161C1F4A9AC50052D6A3 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,6 +233,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7FD2161A1F4A9AC00052D6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FD2161B1F4A9AC00052D6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		7FD5E72A1F3A958600AB5146 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -358,6 +390,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7FD216191F4A9AC00052D6A3 /* Build configuration list for PBXAggregateTarget "Script" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD2161A1F4A9AC00052D6A3 /* Debug */,
+				7FD2161B1F4A9AC00052D6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		7FD5E71E1F3A958600AB5146 /* Build configuration list for PBXProject "JavaScriptFiles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

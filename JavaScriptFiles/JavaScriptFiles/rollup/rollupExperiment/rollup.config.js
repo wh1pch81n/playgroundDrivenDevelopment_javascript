@@ -1,11 +1,7 @@
-let configuration = {
-  output: {
-  	format: 'cjs',
-  	file: './product/rollup.js',
-  },
-  name: 'namename',
-  input: './main.js',
-  treeshake: false,
+export default {
+    input: './main.js',
+    output: {
+        format: 'cjs',
+        file: './product/rollup.js',
+    },
 };
-
-export default configuration;

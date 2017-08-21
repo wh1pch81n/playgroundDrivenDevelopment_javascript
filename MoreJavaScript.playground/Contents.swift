@@ -6,13 +6,13 @@ import JavaScriptFiles
 
 let j = JSContext()!
 
-JavaScriptFileManager.rollup.fileContents
+print(JavaScriptFileManager.rollup.fileContents)
 
 j.evaluateScript(JavaScriptFileManager.rollup.fileContents)
 
-j.evaluateScript("(new Base()).aMethod();")
-j.evaluateScript("(new SubA()).aMethod();")
-j.evaluateScript("(new SubB()).aMethod();")
+print(j.evaluateScript("(new Base()).aMethod();").toString())
+print(j.evaluateScript("(new SubA()).aMethod();").toString())
+print(j.evaluateScript("(new SubB()).aMethod();").toString())
 
-
+"k"
 
